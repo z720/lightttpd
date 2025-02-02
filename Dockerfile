@@ -1,6 +1,6 @@
-FROM alpine:3.20.3
+FROM alpine:3.21.2
 
-ARG LIGHTTPD_VERSION=1.4.76-r0
+ARG LIGHTTPD_VERSION=1.4.77-r0
 
 # Install lighttpd from binary package and remove default conf
 RUN set -x \
